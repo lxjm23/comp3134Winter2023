@@ -1,0 +1,29 @@
+C:\Users\JM>tracert georgebrown.ca
+
+Tracing route to georgebrown.ca [99.79.139.11]
+over a maximum of 30 hops:
+
+  1    <1 ms     2 ms     1 ms  mynetwork [192.168.2.1]
+  2     5 ms    15 ms    91 ms  10.11.4.177
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     8 ms     8 ms     8 ms  bx3-torontoxn_hundredgige0-1-0-0.net.bell.ca [64.230.97.145]
+  7    94 ms    22 ms   341 ms  99.82.178.222
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10     *        *        *     Request timed out.
+ 11    16 ms   271 ms    19 ms  52.94.82.236
+ 12    29 ms    14 ms    14 ms  52.94.83.189
+ 13    51 ms    16 ms   325 ms  52.94.83.148
+ 14   754 ms    14 ms    14 ms  52.94.82.119
+ 15    27 ms    27 ms    19 ms  52.94.81.44
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22    40 ms   286 ms    17 ms  ec2-99-79-139-11.ca-central-1.compute.amazonaws.com [99.79.139.11]
+
+Trace complete.

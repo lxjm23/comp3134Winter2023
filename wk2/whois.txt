@@ -1,0 +1,284 @@
+Bell.Ca
+
+Domain Name: bell.ca
+Registry Domain ID: D6310-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: Markmonitor.com
+Updated Date: 2022-11-03T19:42:01Z
+Creation Date: 2000-10-11T20:49:22Z
+Registry Expiry Date: 2025-12-15T05:00:00Z
+Registrar: MarkMonitor International Canada Ltd.
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895740
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Registry Registrant ID: 73710059-CIRA
+Registrant Name: Bell Canada
+Registrant Organization:
+Registrant Street: 1 Carrefour Alexander-Graham-Bell, Building A 7th Floor
+Registrant City: Verdun
+Registrant State/Province: QC
+Registrant Postal Code: H3E3B3
+Registrant Country: CA
+Registrant Phone: +1.5148702477
+Registrant Phone Ext:
+Registrant Fax: +1.5148704833
+Registrant Fax Ext:
+Registrant Email: trademarks@bell.ca
+Registry Admin ID: 73710449-CIRA
+Admin Name: Claudia Mack
+Admin Organization: Bell Canada
+Admin Street: 1 Carrefour Alexander-Graham-Bell, Building A 7th Floor
+Admin City: Verdun
+Admin State/Province: QC
+Admin Postal Code: H3E3B3
+Admin Country: CA
+Admin Phone: +1.5148702477
+Admin Phone Ext:
+Admin Fax: +1.5148704833
+Admin Fax Ext:
+Admin Email: trademarks@bell.ca
+Registry Tech ID: 73710449-CIRA
+Tech Name: Claudia Mack
+Tech Organization: Bell Canada
+Tech Street: 1 Carrefour Alexander-Graham-Bell, Building A 7th Floor
+Tech City: Verdun
+Tech State/Province: QC
+Tech Postal Code: H3E3B3
+Tech Country: CA
+Tech Phone: +1.5148702477
+Tech Phone Ext:
+Tech Fax: +1.5148704833
+Tech Fax Ext:
+Tech Email: trademarks@bell.ca
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: mtl02vnszs07.srvr.bell.ca
+Name Server: mtl02vnszs08.srvr.bell.ca
+Name Server: tor63vnszp07.srvr.bell.ca
+Name Server: tor63vnszp08.srvr.bell.ca
+Name Server: toroon63nszp01.srvr.bell.ca
+Name Server: toroondcnszs01.srvr.bell.ca
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2023-01-27T18:35:54Z <<<
+
+
+
+Youtube.com
+
+Domain Name: youtube.com
+Registry Domain ID: 142504053_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2023-01-14T09:25:19+0000
+Creation Date: 2005-02-15T05:13:12+0000
+Registrar Registration Expiration Date: 2024-02-15T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registrant Organization: Google LLC
+Registrant State/Province: CA
+Registrant Country: US
+Registrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/youtube.com
+Admin Organization: Google LLC
+Admin State/Province: CA
+Admin Country: US
+Admin Email: Select Request Email Form at https://domains.markmonitor.com/whois/youtube.com
+Tech Organization: Google LLC
+Tech State/Province: CA
+Tech Country: US
+Tech Email: Select Request Email Form at https://domains.markmonitor.com/whois/youtube.com
+Name Server: ns2.google.com
+Name Server: ns1.google.com
+Name Server: ns4.google.com
+Name Server: ns3.google.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-01-27T18:27:27+0000 <<<
+
+
+Facebook.com
+
+Domain Name: FACEBOOK.COM
+Registry Domain ID: 2320948_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.registrarsafe.com
+Registrar URL: https://www.registrarsafe.com
+Updated Date: 2022-01-26T16:45:06Z
+Creation Date: 1997-03-29T05:00:00Z
+Registrar Registration Expiration Date: 2031-03-30T04:00:00Z
+Registrar: RegistrarSafe, LLC
+Registrar IANA ID: 3237
+Registrar Abuse Contact Email: abusecomplaints@registrarsafe.com
+Registrar Abuse Contact Phone: +1.6503087004
+Domain Status: serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+Domain Status: clientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited
+Domain Status: clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited
+Registry Registrant ID:
+Registrant Name: Domain Admin
+Registrant Organization: Meta Platforms, Inc.
+Registrant Street: 1601 Willow Rd
+Registrant City: Menlo Park
+Registrant State/Province: CA
+Registrant Postal Code: 94025
+Registrant Country: US
+Registrant Phone: +1.6505434800
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+Registrant Email: domain@fb.com
+Registry Admin ID:
+Admin Name: Domain Admin
+Admin Organization: Meta Platforms, Inc.
+Admin Street: 1601 Willow Rd
+Admin City: Menlo Park
+Admin State/Province: CA
+Admin Postal Code: 94025
+Admin Country: US
+Admin Phone: +1.6505434800
+Admin Phone Ext:
+Admin Fax:
+Admin Fax Ext:
+Admin Email: domain@fb.com
+Registry Tech ID:
+Tech Name: Domain Admin
+Tech Organization: Meta Platforms, Inc.
+Tech Street: 1601 Willow Rd
+Tech City: Menlo Park
+Tech State/Province: CA
+Tech Postal Code: 94025
+Tech Country: US
+Tech Phone: +1.6505434800
+Tech Phone Ext:
+Tech Fax:
+Tech Fax Ext:
+Tech Email: domain@fb.com
+Name Server: C.NS.FACEBOOK.COM
+Name Server: B.NS.FACEBOOK.COM
+Name Server: A.NS.FACEBOOK.COM
+Name Server: D.NS.FACEBOOK.COM
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-01-27T11:23:17Z <<<
+
+
+Spotify.com
+
+Domain Name: spotify.com
+Registry Domain ID: 422131614_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.domaininfo.com
+Registrar URL: ports.domains
+Updated Date: 2021-08-02T18:37:37Z
+Creation Date: 2006-04-23T09:07:50Z
+Registrar Registration Expiration Date: 2030-04-23T09:07:50Z
+Registrar: PortsGroup AB
+Registrar IANA ID: 73
+Registrar Abuse Contact Email: abuse@portsgroup.se
+Registrar Abuse Contact Phone: +46.317202000
+Registrant Organization: Spotify AB
+Registrant State/Province:
+Registrant Country: SE
+Name Server: dns1.p07.nsone.net
+Name Server: dns2.p07.nsone.net
+Name Server: dns3.p07.nsone.net
+Name Server: dns4.p07.nsone.net
+Name Server: ns-cloud-a1.googledomains.com
+Name Server: ns-cloud-a2.googledomains.com
+Name Server: ns-cloud-a3.googledomains.com
+Name Server: ns-cloud-a4.googledomains.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net
+>>> Last update of WHOIS database: 2023-01-26T23:00:01Z
+
+
+Twitter.com
+
+Domain Name: twitter.com
+Registry Domain ID: 18195971_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.corporatedomains.com
+Registrar URL: www.cscprotectsbrands.com
+Updated Date: 2023-01-17T01:07:22Z
+Creation Date: 2000-01-21T11:28:17Z
+Registrar Registration Expiration Date: 2024-01-21T16:28:17Z
+Registrar: CSC CORPORATE DOMAINS, INC.
+Sponsoring Registrar IANA ID: 299
+Registrar Abuse Contact Email: domainabuse@cscglobal.com
+Registrar Abuse Contact Phone: +1.8887802723
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status: serverDeleteProhibited http://www.icann.org/epp#serverDeleteProhibited
+Domain Status: serverTransferProhibited http://www.icann.org/epp#serverTransferProhibited
+Domain Status: serverUpdateProhibited http://www.icann.org/epp#serverUpdateProhibited
+Registry Registrant ID:
+Registrant Name: Twitter, Inc.
+Registrant Organization: Twitter, Inc.
+Registrant Street: 1355 Market Street
+Registrant City: San Francisco
+Registrant State/Province: CA
+Registrant Postal Code: 94103
+Registrant Country: US
+Registrant Phone: +1.4152229670
+Registrant Phone Ext:
+Registrant Fax: +1.4152220922
+Registrant Fax Ext:
+Registrant Email: domains@twitter.com
+Registry Admin ID:
+Admin Name: Domain Admin
+Admin Organization: Twitter, Inc.
+Admin Street: 1355 Market Street
+Admin City: San Francisco
+Admin State/Province: CA
+Admin Postal Code: 94103
+Admin Country: US
+Admin Phone: +1.4152229670
+Admin Phone Ext:
+Admin Fax: +1.4152220922
+Admin Fax Ext:
+Admin Email: domains@twitter.com
+Registry Tech ID:
+Tech Name: Tech Admin
+Tech Organization: Twitter, Inc.
+Tech Street: 1355 Market Street
+Tech City: San Francisco
+Tech State/Province: CA
+Tech Postal Code: 94103
+Tech Country: US
+Tech Phone: +1.4152229670
+Tech Phone Ext:
+Tech Fax: +1.4152220922
+Tech Fax Ext:
+Tech Email: domains-tech@twitter.com
+Name Server: d01-02.ns.twtrdns.net
+Name Server: d01-01.ns.twtrdns.net
+Name Server: NS4.P34.DYNECT.NET
+Name Server: b.r06.twtrdns.net
+Name Server: d.r06.twtrdns.net
+Name Server: c.r06.twtrdns.net
+Name Server: a.r06.twtrdns.net
+Name Server: NS3.P34.DYNECT.NET
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-01-17T01:07:22Z <<<
+

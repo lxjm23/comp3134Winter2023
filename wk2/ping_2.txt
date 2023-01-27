@@ -1,0 +1,3 @@
+PING 138.197.129.210 (138.197.129.210) 56(84) bytes of data.
+64 bytes from 138.197.129.210: icmp_seq=1 ttl=64 time=0.036 ms
+64 bytes from 138.197.129.210: icmp_seq=2 ttl=64 time=0.056 ms

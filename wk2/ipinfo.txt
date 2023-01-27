@@ -1,0 +1,20 @@
+Bell.ca
+bell.ca.	300	A	206.47.98.98
+bell.ca.	300	A	184.150.212.98
+
+
+Youtube.com
+youtube.com.	172	A	142.250.189.174
+
+
+Facebook.com
+facebook.com.	69	A	157.240.22.35
+
+
+Spotify.com
+spotify.com.	94	A	35.186.224.25
+
+
+Twitter.com
+twitter.com.	1783	A	104.244.42.1
+twitter.com.	1783	A	104.244.42.193
