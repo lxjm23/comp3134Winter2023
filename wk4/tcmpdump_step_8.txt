@@ -1,0 +1,14 @@
+root@comp3124-Winter2023:~# tcpdump -n -i eth0 -c 10
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+07:05:40.430746 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 3409312190:3409312298, ack 2147123682, win 501, length 108
+07:05:40.430815 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 108:252, ack 1, win 501, length 144  
+07:05:40.430847 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 252:288, ack 1, win 501, length 36   
+07:05:40.430965 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 288:460, ack 1, win 501, length 172  
+07:05:40.431026 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 460:644, ack 1, win 501, length 184  
+07:05:40.431121 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 644:1012, ack 1, win 501, length 368 
+07:05:40.431170 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 1012:1196, ack 1, win 501, length 18407:05:40.431215 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 1196:1380, ack 1, win 501, length 18407:05:40.431260 IP 138.197.129.210.22 > 184.147.240.6.59698: Flags [P.], seq 1380:1564, ack 1, win 501, length 18407:05:40.434238 IP 184.147.240.6.59698 > 138.197.129.210.22: Flags [.], ack 288, win 1024, length 0
+10 packets captured
+13 packets received by filter
+0 packets dropped by kernel
+root@comp3124-Winter2023:~#

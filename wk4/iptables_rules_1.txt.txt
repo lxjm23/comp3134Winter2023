@@ -1,0 +1,198 @@
+root@comp3124-Winter2023:~# iptables -L -v
+Chain INPUT (policy DROP 2 packets, 80 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+ 2830  313K f2b-sshd   tcp  --  any    any     anywhere             anywhere             multiport dports ssh
+ 3670 5900K ufw-before-logging-input  all  --  any    any     anywhere             anywhere
+ 3670 5900K ufw-before-input  all  --  any    any     anywhere             anywhere
+  571 33213 ufw-after-input  all  --  any    any     anywhere             anywhere
+  564 32797 ufw-after-logging-input  all  --  any    any     anywhere             anywhere
+  564 32797 ufw-reject-input  all  --  any    any     anywhere             anywhere
+  564 32797 ufw-track-input  all  --  any    any     anywhere             anywhere
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 ufw-before-logging-forward  all  --  any    any     anywhere             anywhere
+    0     0 ufw-before-forward  all  --  any    any     anywhere             anywhere
+    0     0 ufw-after-forward  all  --  any    any     anywhere             anywhere
+    0     0 ufw-after-logging-forward  all  --  any    any     anywhere             anywhere
+    0     0 ufw-reject-forward  all  --  any    any     anywhere             anywhere
+    0     0 ufw-track-forward  all  --  any    any     anywhere             anywhere
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+ 4749  588K ufw-before-logging-output  all  --  any    any     anywhere             anywhere
+ 4749  588K ufw-before-output  all  --  any    any     anywhere             anywhere
+   89  7451 ufw-after-output  all  --  any    any     anywhere             anywhere
+   89  7451 ufw-after-logging-output  all  --  any    any     anywhere             anywhere
+   89  7451 ufw-reject-output  all  --  any    any     anywhere             anywhere
+   89  7451 ufw-track-output  all  --  any    any     anywhere             anywhere
+
+Chain f2b-sshd (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+   18  1448 REJECT     all  --  any    any     dsl-189-178-17-56-dyn.prod-infinitum.com.mx  anywhere             reject-with icmp-port-unreachable
+   21  2028 REJECT     all  --  any    any     59.1.178.195         anywhere             reject-with icmp-port-unreachable
+   33  2388 REJECT     all  --  any    any     207.154.215.181      anywhere             reject-with icmp-port-unreachable
+   30  2160 REJECT     all  --  any    any     118.97.119.130       anywhere             reject-with icmp-port-unreachable
+   24  1664 REJECT     all  --  any    any     vps-90485964.vps.ovh.ca  anywhere             reject-with icmp-port-unreachable
+   41  2868 REJECT     all  --  any    any     98.2.224.35.bc.googleusercontent.com  anywhere             reject-with icmp-port-unreachable
+   35  2460 REJECT     all  --  any    any     115.134.9.205        anywhere             reject-with icmp-port-unreachable
+   41  2868 REJECT     all  --  any    any     5-139.e66.utk.ru     anywhere             reject-with icmp-port-unreachable
+   40  2804 REJECT     all  --  any    any     mail.snapble.vn      anywhere             reject-with icmp-port-unreachable
+   29  1668 REJECT     all  --  any    any     43.159.59.85         anywhere             reject-with icmp-port-unreachable
+   19  1500 REJECT     all  --  any    any     ec2-43-205-116-196.ap-south-1.compute.amazonaws.com  anywhere             reject-with icmp-port-unreachable
+   50  3452 REJECT     all  --  any    any     43.157.10.218        anywhere             reject-with icmp-port-unreachable
+   16  1484 REJECT     all  --  any    any     61.177.173.50        anywhere             reject-with icmp-port-unreachable
+   43  2992 REJECT     all  --  any    any     autogroupsimo.ro     anywhere             reject-with icmp-port-unreachable
+   49  3348 REJECT     all  --  any    any     167.99.123.23        anywhere             reject-with icmp-port-unreachable
+   49  3348 REJECT     all  --  any    any     143.244.162.174      anywhere             reject-with icmp-port-unreachable
+   28  1680 REJECT     all  --  any    any     78.138.17.12         anywhere             reject-with icmp-port-unreachable
+   25  2024 REJECT     all  --  any    any     61.177.172.114       anywhere             reject-with icmp-port-unreachable
+ 1636  231K RETURN     all  --  any    any     anywhere             anywhere
+
+Chain ufw-after-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-after-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+    2   156 ufw-skip-to-policy-input  udp  --  any    any     anywhere             anywhere             udp dpt:netbios-ns
+    0     0 ufw-skip-to-policy-input  udp  --  any    any     anywhere             anywhere             udp dpt:netbios-dgm
+    0     0 ufw-skip-to-policy-input  tcp  --  any    any     anywhere             anywhere             tcp dpt:netbios-ssn
+    5   260 ufw-skip-to-policy-input  tcp  --  any    any     anywhere             anywhere             tcp dpt:microsoft-ds
+    0     0 ufw-skip-to-policy-input  udp  --  any    any     anywhere             anywhere             udp dpt:bootps
+    0     0 ufw-skip-to-policy-input  udp  --  any    any     anywhere             anywhere             udp dpt:bootpc
+    0     0 ufw-skip-to-policy-input  all  --  any    any     anywhere             anywhere             ADDRTYPE match dst-type BROADCAST
+
+Chain ufw-after-logging-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 LOG        all  --  any    any     anywhere             anywhere             limit: avg 3/min burst 10 LOG level warning prefix "[UFW BLOCK] "
+
+Chain ufw-after-logging-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+  315 16780 LOG        all  --  any    any     anywhere             anywhere             limit: avg 3/min burst 10 LOG level warning prefix "[UFW BLOCK] "
+
+Chain ufw-after-logging-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-after-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-before-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 ACCEPT     all  --  any    any     anywhere             anywhere             ctstate RELATED,ESTABLISHED
+    0     0 ACCEPT     icmp --  any    any     anywhere             anywhere             icmp destination-unreachable
+    0     0 ACCEPT     icmp --  any    any     anywhere             anywhere             icmp time-exceeded
+    0     0 ACCEPT     icmp --  any    any     anywhere             anywhere             icmp parameter-problem
+    0     0 ACCEPT     icmp --  any    any     anywhere             anywhere             icmp echo-request
+    0     0 ufw-user-forward  all  --  any    any     anywhere             anywhere
+
+Chain ufw-before-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+  110  8938 ACCEPT     all  --  lo     any     anywhere             anywhere
+ 2602 5829K ACCEPT     all  --  any    any     anywhere             anywhere             ctstate RELATED,ESTABLISHED
+   38 12379 ufw-logging-deny  all  --  any    any     anywhere             anywhere             ctstate INVALID
+   38 12379 DROP       all  --  any    any     anywhere             anywhere             ctstate INVALID
+    0     0 ACCEPT     icmp --  any    any     anywhere             anywhere             icmp destination-unreachable
+    0     0 ACCEPT     icmp --  any    any     anywhere             anywhere             icmp time-exceeded
+    0     0 ACCEPT     icmp --  any    any     anywhere             anywhere             icmp parameter-problem
+  213  8666 ACCEPT     icmp --  any    any     anywhere             anywhere             icmp echo-request
+    0     0 ACCEPT     udp  --  any    any     anywhere             anywhere             udp spt:bootps dpt:bootpc
+  707 41101 ufw-not-local  all  --  any    any     anywhere             anywhere
+    0     0 ACCEPT     udp  --  any    any     anywhere             224.0.0.251          udp dpt:mdns
+    0     0 ACCEPT     udp  --  any    any     anywhere             239.255.255.250      udp dpt:1900
+  707 41101 ufw-user-input  all  --  any    any     anywhere             anywhere
+
+Chain ufw-before-logging-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-before-logging-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-before-logging-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-before-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+  110  8938 ACCEPT     all  --  any    lo      anywhere             anywhere
+ 4550  572K ACCEPT     all  --  any    any     anywhere             anywhere             ctstate RELATED,ESTABLISHED
+   89  7451 ufw-user-output  all  --  any    any     anywhere             anywhere
+
+Chain ufw-logging-allow (0 references)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 LOG        all  --  any    any     anywhere             anywhere             limit: avg 3/min burst 10 LOG level warning prefix "[UFW ALLOW] "
+
+Chain ufw-logging-deny (2 references)
+ pkts bytes target     prot opt in     out     source               destination
+   38 12379 RETURN     all  --  any    any     anywhere             anywhere             ctstate INVALID limit: avg 3/min burst 10
+    0     0 LOG        all  --  any    any     anywhere             anywhere             limit: avg 3/min burst 10 LOG level warning prefix "[UFW BLOCK] "
+
+Chain ufw-not-local (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+  707 41101 RETURN     all  --  any    any     anywhere             anywhere             ADDRTYPE match dst-type LOCAL
+    0     0 RETURN     all  --  any    any     anywhere             anywhere             ADDRTYPE match dst-type MULTICAST
+    0     0 RETURN     all  --  any    any     anywhere             anywhere             ADDRTYPE match dst-type BROADCAST
+    0     0 ufw-logging-deny  all  --  any    any     anywhere             anywhere             limit: avg 3/min burst 10
+    0     0 DROP       all  --  any    any     anywhere             anywhere
+
+Chain ufw-reject-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-reject-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-reject-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-skip-to-policy-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 DROP       all  --  any    any     anywhere             anywhere
+
+Chain ufw-skip-to-policy-input (7 references)
+ pkts bytes target     prot opt in     out     source               destination
+    7   416 DROP       all  --  any    any     anywhere             anywhere
+
+Chain ufw-skip-to-policy-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 ACCEPT     all  --  any    any     anywhere             anywhere
+
+Chain ufw-track-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-track-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-track-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+   20  2252 ACCEPT     tcp  --  any    any     anywhere             anywhere             ctstate NEW
+   52  4199 ACCEPT     udp  --  any    any     anywhere             anywhere             ctstate NEW
+
+Chain ufw-user-forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-user-input (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+  118  7032            tcp  --  any    any     anywhere             anywhere             tcp dpt:ssh ctstate NEW recent: SET name: DEFAULT side: source mask: 255.255.255.255
+    0     0 ufw-user-limit  tcp  --  any    any     anywhere             anywhere             tcp dpt:ssh ctstate NEW recent: UPDATE seconds: 30 hit_count: 6 name: DEFAULT side: source mask: 255.255.255.255
+  118  7032 ufw-user-limit-accept  tcp  --  any    any     anywhere             anywhere             tcp dpt:ssh
+   18   856 ACCEPT     tcp  --  any    any     anywhere             anywhere             multiport dports http,https /* 'dapp_Apache%20Full' */
+
+Chain ufw-user-limit (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+    0     0 LOG        all  --  any    any     anywhere             anywhere             limit: avg 3/min burst 5 LOG level warning prefix "[UFW LIMIT BLOCK] "
+    0     0 REJECT     all  --  any    any     anywhere             anywhere             reject-with icmp-port-unreachable
+
+Chain ufw-user-limit-accept (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+  118  7032 ACCEPT     all  --  any    any     anywhere             anywhere
+
+Chain ufw-user-logging-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-user-logging-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-user-logging-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination
+
+Chain ufw-user-output (1 references)
+ pkts bytes target     prot opt in     out     source               destination
+root@comp3124-Winter2023:~# 

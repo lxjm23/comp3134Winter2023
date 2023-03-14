@@ -1,0 +1,26 @@
+root@comp3124-Winter2023:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+07:04:46.127228 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 3407921622:3407921666, ack 2147122230, win 501, length 44
+07:04:46.127285 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 44:152, ack 1, win 501, length 108
+07:04:46.127438 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 152:188, ack 1, win 501, length 36
+07:04:46.130740 IP bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698 > comp3124-Winter2023.ssh: Flags [.], ack 152, win 1026, length 0
+07:04:46.131710 IP bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698 > comp3124-Winter2023.ssh: Flags [.], ack 188, win 1026, length 0
+07:04:46.146374 IP comp3124-Winter2023.ssh > 112-104-52-145.static.seed.net.tw.47736: Flags [P.], seq 3807085609:3807085661, ack 3471832351, win 502, options [nop,nop,TS val 872727370 ecr 469020155], length 52
+07:04:46.233490 IP 112-104-52-145.static.seed.net.tw.47736 > comp3124-Winter2023.ssh: Flags [F.], seq 53, ack 52, win 268, options [nop,nop,TS val 469024884 ecr 872726831], length 0
+07:04:46.233543 IP comp3124-Winter2023 > 112-104-52-145.static.seed.net.tw: ICMP comp3124-Winter2023 tcp port ssh unreachable, length 60
+07:04:46.299141 IP 46-118-164-133.broadband.kyivstar.net.9441 > comp3124-Winter2023.telnet: Flags [S], seq 2461973539, win 1221, length 0
+07:04:46.354428 IP 112-104-52-145.static.seed.net.tw.47736 > comp3124-Winter2023.ssh: Flags [.], ack 52, win 268, options [nop,nop,TS val 469025004 ecr 872727370,nop,nop,sack 1 {0:52}], length 0
+07:04:46.354485 IP comp3124-Winter2023 > 112-104-52-145.static.seed.net.tw: ICMP comp3124-Winter2023 tcp port ssh unreachable, length 72
+07:04:46.658341 IP comp3124-Winter2023.ssh > 112-104-52-145.static.seed.net.tw.47736: Flags [P.], seq 0:52, ack 1, win 502, options [nop,nop,TS val 872727882 ecr 469020155], length 52
+07:04:46.866453 IP 112-104-52-145.static.seed.net.tw.47736 > comp3124-Winter2023.ssh: Flags [.], ack 52, win 268, options [nop,nop,TS val 469025516 ecr 872727882,nop,nop,sack 1 {0:52}], length 0
+07:04:46.866515 IP comp3124-Winter2023 > 112-104-52-145.static.seed.net.tw: ICMP comp3124-Winter2023 tcp port ssh unreachable, length 72
+07:04:47.628463 IP 112-104-52-145.static.seed.net.tw.47736 > comp3124-Winter2023.ssh: Flags [FP.], seq 1:53, ack 52, win 268, options [nop,nop,TS val 469026279 ecr 872727882], length 52
+07:04:47.628582 IP comp3124-Winter2023 > 112-104-52-145.static.seed.net.tw: ICMP comp3124-Winter2023 tcp port ssh unreachable, length 112
+07:04:47.682462 IP comp3124-Winter2023.ssh > 112-104-52-145.static.seed.net.tw.47736: Flags [P.], seq 0:52, ack 1, win 502, options [nop,nop,TS val 872728906 ecr 469020155], length 52
+07:04:47.890829 IP 112-104-52-145.static.seed.net.tw.47736 > comp3124-Winter2023.ssh: Flags [.], ack 52, win 268, options [nop,nop,TS val 469026540 ecr 872728906,nop,nop,sack 1 {0:52}], length 0
+07:04:47.890888 IP comp3124-Winter2023 > 112-104-52-145.static.seed.net.tw: ICMP comp3124-Winter2023 tcp port ssh unreachable, length 72
+07:04:48.557471 IP 112-104-52-145.static.seed.net.tw.47736 > comp3124-Winter2023.ssh: Flags [FP.], seq 1:53, ack 52, win 268, options [nop,nop,TS val 469027208 ecr 872728906], length 52
+07:04:48.557528 IP comp3124-Winter2023 > 112-104-52-145.static.seed.net.tw: ICMP comp3124-Winter2023 tcp port ssh unreachable, length 112
+07:04:49.070728 IP 36-227-246-90.dynamic-ip.hinet.net.52314 > comp3124-Winter2023.ssh: Flags [S], seq 2326759908, win 29200, options [mss 1440,sackOK,TS val 642583709 ecr 0,nop,wscale 7], length 0
+07:04:49.070784 IP comp3124-Winter2023 > 36-227-246-90.dynamic-ip.hinet.net: ICMP comp3124-Winter2023 tcp port ssh unreachable, length 68
+root@comp3124-Winter2023:~#

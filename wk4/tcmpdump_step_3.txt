@@ -1,0 +1,34 @@
+root@comp3124-Winter2023:~# tcpdump -A -i eth0 -c 10
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+06:56:34.995587 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 3405484410:3405484446, ack 2147073734, win 501, length 36
+E..Lj.@.@..............2...z....P....p..=+....."..:.4B._tF.I...8.=.U.C|d....
+06:56:34.998024 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 36:144, ack 1, win 501, length 108
+E...j.@.@..R...........2........P......._l.b.....-.#l.>.q........v...`?.<.?n.<..=.|.x...)E.\.3X.I...d..........h(...S..L..^E..p.j......Wa..-...E..O.
+06:56:34.998098 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 144:288, ack 1, win 501, length 144
+E...j.@.@..-...........2...
+....P..........>p.....Z,...`..c)..{r{...._...........[_..Bd.k.  0..v.\...2."..q..w.2.I{..`....D..w..m.D...^3...L.....Z.&...Ut
+.3+..6.....Y...........<...kE=b
+06:56:34.998158 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 288:324, ack 1, win 501, length 36
+E..Lj.@.@..............2........P....p......K..8..7L.5.L.&i'.]..P.u.....2..J
+06:56:34.998900 IP comp3124-Winter2023.42031 > 67.207.67.2.domain: 53737+ [1au] PTR? 6.240.147.184.in-addr.arpa. (55)
+E..S..@.@.."....C.C../.5.?...............6.240.147.184.in-addr.arpa.......)........
+06:56:34.998965 IP comp3124-Winter2023.38169 > 67.207.67.2.domain: 21454+ [1au] PTR? 6.240.147.184.in-addr.arpa. (55)
+E..S,.@.@.zS....C.C....5.?..S............6.240.147.184.in-addr.arpa.......)........
+06:56:34.999158 IP 112-104-52-145.static.seed.net.tw.59668 > comp3124-Winter2023.ssh: Flags [P.], seq 2861127089:2861127105, ack 1069682974, win 268, options [nop,nop,TS val 468533648 ecr 872236013], length 16
+E..Do.@.+.0.ph4.
+.........U.?..............
+..A.3.C.....
+...........
+06:56:34.999189 IP comp3124-Winter2023.ssh > 112-104-52-145.static.seed.net.tw.59668: Flags [.], ack 16, win 502, options [nop,nop,TS val 872236223 ecr 468533648], length 0
+E..4".@.@.h.
+...ph4.....?.....U......8.....
+3.D...A.
+06:56:34.999393 IP 67.207.67.2.domain > comp3124-Winter2023.42031: 53737 1/0/1 PTR bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca. (123)
+E.......<.''C.C......5./..H..............6.240.147.184.in-addr.arpa.............O..8*bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca...)........
+06:56:34.999394 IP 67.207.67.2.domain > comp3124-Winter2023.38169: 21454 1/0/1 PTR bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca. (123)
+E.......<.'(C.C......5......S............6.240.147.184.in-addr.arpa.............O..8*bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca...)........
+10 packets captured
+77 packets received by filter
+39 packets dropped by kernel
+root@comp3124-Winter2023:~# 

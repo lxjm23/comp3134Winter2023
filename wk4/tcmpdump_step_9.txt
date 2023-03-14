@@ -1,0 +1,17 @@
+root@comp3124-Winter2023:~# tcpdump -i eth0 tcp -c 10
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+07:06:15.496475 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 3410536322:3410536430, ack 2147124866, win 501, length 108
+07:06:15.496576 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 108:252, ack 1, win 501, length 144
+07:06:15.496623 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 252:288, ack 1, win 501, length 36
+07:06:15.499670 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 288:508, ack 1, win 501, length 220
+07:06:15.499748 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 508:544, ack 1, win 501, length 36
+07:06:15.499802 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 544:740, ack 1, win 501, length 196
+07:06:15.499851 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 740:776, ack 1, win 501, length 36
+07:06:15.500152 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 776:972, ack 1, win 501, length 196
+07:06:15.500239 IP comp3124-Winter2023.ssh > bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698: Flags [P.], seq 972:1008, ack 1, win 501, length 36
+07:06:15.500947 IP bras-base-toroon4215w-grc-65-184-147-240-6.dsl.bell.ca.59698 > comp3124-Winter2023.ssh: Flags [.], ack 288, win 1024, length 0
+10 packets captured
+13 packets received by filter
+0 packets dropped by kernel
+root@comp3124-Winter2023:~# 
